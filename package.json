@@ -1,18 +1,15 @@
 {
-  "name": "mengzhao-ai-chat-proxy",
+  "name": "mengzhao-ai-backend",
   "version": "1.0.0",
-  "description": "萌爪貓坊官網 AI 客服代理服務",
+  "description": "萌爪貓坊 AI 客服代理 + 表單通知後端",
   "main": "index.js",
-  "type": "commonjs",
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
+    "@line/bot-sdk": "^9.4.0",
     "cors": "^2.8.5",
+    "express": "^4.19.2",
     "openai": "^4.56.0"
   }
 }
